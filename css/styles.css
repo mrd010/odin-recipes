@@ -1,0 +1,86 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* general styles */
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+body > * {
+  margin-top: 25px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  padding: 25px;
+  background-color: tomato;
+  color: white;
+}
+
+/* Style main page */
+
+div.menu-container {
+  border-bottom: 3px solid tomato;
+}
+
+a {
+  display: inline-block;
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+a:any-link {
+  color: tomato;
+}
+
+a:hover,
+a:active {
+  color: black;
+}
+
+a:not(:last-child) {
+  border-right: 2px solid tomato;
+}
+/* styling the pages */
+img {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 2rem;
+}
+
+p {
+  padding: 10px;
+}
+
+h3 {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  margin: 20px 20%;
+  line-height: 25px;
+}
+
+li {
+  text-align: left;
+  font-weight: 300;
+}
